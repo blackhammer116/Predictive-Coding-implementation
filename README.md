@@ -13,7 +13,6 @@ The implementation is designed to work with the MNIST dataset for handwritten di
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Results](#results)
 - [Customization](#customization)
 
 
@@ -39,13 +38,28 @@ Predictive coding is a computational framework where the system minimizes predic
 
 Predictive coding minimizes a free energy function or prediction error, defined as:
 
-\[
-E = \frac{1}{2} \| \epsilon_1 \|^2 + \frac{1}{2} \| \epsilon_2 \|^2
-\]
+E= 
+2
+1
+​
+ ∥ε 
+1
+​
+ ∥ 
+2
+ + 
+2
+1
+​
+ ∥ε 
+2
+​
+ ∥ 
+2
 
 Where:
-- \( \epsilon_1 = x_1 - f(x_0) \): Prediction error at the first layer.
-- \( \epsilon_2 = x_2 - g(x_1) \): Prediction error at the second layer.
+- ε_1 = x_1 - f(x_0) : Prediction error at the first layer.
+- ε_2 = x_2 - g(x_1) : Prediction error at the second layer.
 
 The updates for the latent variables (\( x_1, x_2 \)) are derived as:
 
