@@ -101,9 +101,9 @@ Both training and testing is done sequencially, run the program and see the resu
 You can customize the network architecture and training parameters by modifying the PCN class in src/model/pcn.py or the train_pcn function in src/main.py.
 
 **Key Parameters** :
-```input_dim```: Number of input features (default: 784 for MNIST).
-```hidden_dim```: Number of neurons in the hidden layer (default: 256).
-```output_dim```: Number of output classes (default: 10 for MNIST).
-```n_inference_steps```: Number of inference steps per forward pass.
-```lr_infer```: Learning rate for latent variable updates.
-```lr_weight```: Learning rate for weight updates.
+- ```input_dim```: Number of input features (default: 784 for MNIST).
+- ```hidden_dim```: Number of neurons in the hidden layer (default: 256).
+- ```output_dim```: Number of output classes (default: 10 for MNIST).
+- ```n_inference_steps```: Number of inference steps per forward pass.
+- ```lr_infer```: Learning rate for latent variable updates.
+- ```lr_weight```: Learning rate for weight updates.
