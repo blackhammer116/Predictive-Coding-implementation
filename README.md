@@ -95,7 +95,7 @@ The weights (\( W_1, W_2 \)) are updated using gradient descent:
 
 ## Usage
 Both training and testing is done sequencially, run the program and see the results
-```bash python main ```
+``` python main ```
 
 ## Customization
 You can customize the network architecture and training parameters by modifying the PCN class in src/model/pcn.py or the train_pcn function in src/main.py.
