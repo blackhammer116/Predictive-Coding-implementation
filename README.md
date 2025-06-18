@@ -79,7 +79,12 @@ The weights (\( W_1, W_2 \)) are updated using gradient descent:
 ---
 
 ## Project Structure
-
+```
+|-- main.py
+|-- data/ # Where the MNIST data will be stored
+|-- README.md
+|-- requirements.txt
+```
 
 ---
 
